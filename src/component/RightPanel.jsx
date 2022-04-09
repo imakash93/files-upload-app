@@ -22,7 +22,6 @@ function RightPanel() {
       >
         <Tab eventKey="home" title="1. Registration Details">
           {" "}
-          {/* <Card.Header className="fs-2"></Card.Header> */}
           <Card.Body>
             <Form className="mb-4">
               <Container>
@@ -44,9 +43,6 @@ function RightPanel() {
                       <Form.Control.Feedback type="invalid">
                         Please choose a username.
                       </Form.Control.Feedback>
-                      {/* <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                  </Form.Text> */}
                     </Form.Group>
                   </Col>
                 </Row>
