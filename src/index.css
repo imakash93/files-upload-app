@@ -1,0 +1,98 @@
+.main-content {
+  min-height: 90vh;
+}
+
+.left-card-border {
+  border: none !important;
+}
+
+body {
+  background-color: #212529 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.active {
+  /* background: transparent !important; */
+  /* color: white !important; */
+  border-bottom: 2px solid #056a9a !important;
+  border-radius: 0px !important;
+}
+
+.main-content {
+  background: linear-gradient(
+    to right,
+    #f8f9fa 0%,
+    #f8f9fa 43%,
+    white 40%,
+    #f8f9fa 100%
+  );
+  display: block;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.tab-pane.active {
+  border-bottom: none !important;
+}
+
+.nav-link.active {
+  border-right-color: rgb(248, 249, 250) !important;
+  background-color: rgb(248, 249, 250) !important;
+}
+
+.checkbox-inline {
+  display: inline;
+  width: auto !important;
+  padding: 0px;
+}
+
+.checkbox-inline .form-check,
+.checkbox-inline .mb-3 {
+  padding: 0px;
+  display: inline;
+}
+
+.checkbox-inline .form-check .form-check-input {
+  margin-left: 0.5em !important;
+  width: 28px;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .fa-duotone {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa-duotone {
+  left: 0px;
+}
+.right-addon .fa-duotone {
+  right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+  padding-left: 30px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+.search-icon {
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  z-index: 9999; /*this will keep the icon appearing all time, even when on input::focus*/
+}
+
+.search-icon btn {
+  color: grey;
+}
